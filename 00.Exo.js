@@ -22,8 +22,8 @@ calcAge();
 function addUp(numb) {
    let total = 0; 
 
-for (let i = 1; i >= numb; i++) {
-   total += numb; 
+for (let i = 1; i <= numb; i++) {
+   total += i; 
 }
    return total
 }
