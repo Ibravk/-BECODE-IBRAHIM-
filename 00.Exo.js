@@ -19,14 +19,12 @@ calcAge();
 
 // 02.Exo ===========
 
-// Créer une fonction qui prend un nombre comme argument. Additionnez tous les nombres de 1 au nombre que vous avez passé à la fonction. Par exemple, si l'entrée est 4 alors votre fonction devrait retourner 10 parce que 1 + 2 + 3 + 4 = 10.
+function addUp(numb) {
+   let total = 0; 
 
-
-function addUp(num) {
-   const add = num.
-   return add 
-   
+for (let i = 1; i >= numb; i++) {
+   total += numb; 
+}
+   return total
 }
 
-
-console.log(addUp(23)); 
