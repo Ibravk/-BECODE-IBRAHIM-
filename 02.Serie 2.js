@@ -144,16 +144,14 @@ console.log(areaOfCountry("USA", 9372610))
 
 // 09.Exo - Serie 2 =======================
 
-function reverseWords(string){
-    let noSpaceString = string.trim().split(/\s+/).reverse();
-    console.log(noSpaceString.join(" "))
-}
+function reverseWords(str){
+        return str.trim().split(' ').filter((a) => a).reverse().join(' ');
+    }
 
 console.log(reverseWords(" the sky is blue"))
 
 
 // .trim() va supprimer les espaces au début et à la fin.
-// .split(/\s+/) va transformer la string en array, en ignorant les espaces.
 // .reverse() inverse l'array
 // .join(" ") retransforme l'array en string, en séparant les valeurs par un espace.
 
